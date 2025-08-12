@@ -1,0 +1,6 @@
+apiVersion: v2
+name: n01714294-nginx-app
+description: NGINX application for n01714294 CCGC5504 Final Exam
+type: application
+version: 0.1.0
+appVersion: "1.0.0"

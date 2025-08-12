@@ -1,0 +1,24 @@
+app:
+  name: n01714294-nginx-app
+  repository: jaihirani/nginx-ccgc5504-final
+  tag: "latest"
+  pullPolicy: Always
+  replicaCount: 2
+  
+  service:
+    type: ClusterIP
+    port: 80
+    targetPort: 80
+  
+  resources:
+    limits:
+      cpu: 200m
+      memory: 128Mi
+    requests:
+      cpu: 100m
+      memory: 64Mi
+
+student:
+  id: "n01714294"
+  course: "CCGC5504"
+  exam: "Final Exam"
