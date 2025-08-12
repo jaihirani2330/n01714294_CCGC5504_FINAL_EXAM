@@ -22,3 +22,9 @@ student:
   id: "n01714294"
   course: "CCGC5504"
   exam: "Final Exam"
+
+database:
+  enabled: true
+  host: "mysql"
+  name: "itemsdb"
+  port: 3306

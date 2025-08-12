@@ -28,30 +28,88 @@
             font-size: 4rem;
             font-weight: bold;
             color: #4a5568;
-            margin: 1rem 0;
+            margin: 0;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
-        .course-title {
-            font-size: 2rem;
-            color: #667eea;
-            margin-bottom: 2rem;
-        }
-        .exam-info {
-            font-size: 1.2rem;
+        .course-info {
+            font-size: 1.5rem;
             color: #718096;
             margin: 1rem 0;
+            font-weight: 500;
+        }
+        .exam-title {
+            font-size: 2rem;
+            color: #2d3748;
+            margin: 2rem 0;
+            font-weight: 600;
+        }
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .tech-badge {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .status {
+            background: #48bb78;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 2rem 0;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #a0aec0;
+        }
+        .database-info {
+            background: #e2e8f0;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="course-title">CCGC5504 Final Exam</div>
-        <div class="student-id">n01714294</div>
-        <div class="exam-info">GitOps Web Application Deployment</div>
-        <div class="exam-info">🐳 Docker • ☸️ Kubernetes • 🔄 GitOps • 📊 Grafana</div>
+        <div class="course-info">CCGC5504 Final Exam</div>
+        <h1 class="student-id">n01714294</h1>
+        <div class="exam-title">GitOps Web Application Deployment</div>
+        
+        <div class="tech-stack">
+            <span class="tech-badge">🐳 Docker</span>
+            <span class="tech-badge">☸️ Kubernetes</span>
+            <span class="tech-badge">🔄 GitOps</span>
+            <span class="tech-badge">⚙️ ArgoCD</span>
+            <span class="tech-badge">🗄️ MySQL</span>
+            <span class="tech-badge">📊 Grafana</span>
+            <span class="tech-badge">🚀 GitHub Actions</span>
+        </div>
+        
+        <div class="status">
+            🎉 Deployment Successful!
+        </div>
+        
+        <div class="database-info">
+            💾 MySQL Database: itemsdb<br>
+            📊 Monitoring: Grafana Ready
+        </div>
+        
+        <div class="footer">
+            Complete GitOps implementation with CI/CD automation<br>
+            Deployed using ArgoCD, Helm, and Kubernetes
+        </div>
     </div>
 </body>
 </html>
-<- name: Mount EXT4 CI/CD Pipeline Test Tue Aug 12 10:07:48 EDT 2025 -->
-<- name: Mount EXT4 CI/CD Pipeline Test Tue Aug 12 10:07:58 EDT 2025 -->
-<- name: Mount EXT4 CI/CD Pipeline Test Tue Aug 12 10:10:36 EDT 2025 -->
